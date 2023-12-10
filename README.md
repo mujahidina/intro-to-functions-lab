@@ -331,7 +331,10 @@ they'll always hear you if you say, "Let's have dinner together!" This time,
 you will need to return different strings depending on the string passed into
 the function.
 
-**Note:** Although there are 3 tests for `sayHiToHeadphonedRoommate()`, you only
+**Note:** Although there are 3 tests for `sayHiToHeadphonedRoommate()`, you onlyfunction shout(string) {
+    return string.toUpperCase("HELLO");
+  }
+  
 need to write **one** function. This function should be able to handle all three
 test conditions:
 
